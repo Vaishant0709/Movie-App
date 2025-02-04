@@ -11,9 +11,9 @@ import Login from './pages/Login.jsx'
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
-      <Route path="" element={<Home/>}/>,
       <Route path='/signUp' element={<SignUp/>}/>,
       <Route path='/login' element={<Login/>} />,
+      <Route path="" element={<Home/>}/>,
       <Route path='*' element={<NoPage/>}/>
     </Route>
   )

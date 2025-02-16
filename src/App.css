@@ -6,7 +6,9 @@ body{
   margin:0;
   padding:0;
   box-sizing: border-box;
-  overflow-x:hidden
+  overflow-x:hidden;
+  background-color: #09090B;
+  color:#fff
 }
 html{
   overflow-x:hidden

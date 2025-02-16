@@ -27,6 +27,8 @@ function Login() {
                 type="email"
                 autoComplete="off"
                 placeholder="Email"
+                onChange={(e)=>{setEmail(e.target.value)}}
+                value={email}
                 className="flex-1 bg-transparent  appearance-none border-none outline-none rounded-md m-2 "
 
               />
@@ -37,6 +39,8 @@ function Login() {
                 type="password"
                 autoComplete="new-password"
                 placeholder="Password"
+                onChange={(e)=>{setPassword(e.target.value)}}
+                value={password}
                 className="flex-1 bg-transparent border-none outline-none rounded-md m-2 appearance-none autofill:bg-gray-700  focus:bg-zinc-700"
               />
             </div>
